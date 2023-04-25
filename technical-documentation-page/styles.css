@@ -1,0 +1,127 @@
+body {
+	background-color: #ccc;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.85rem;
+}
+
+@media screen and (max-width:400px){
+	nav {
+		position: fixed;
+		display: hidden;
+	}
+}
+
+nav {
+	width: 292px;
+	height: 100%;
+	position: fixed;
+	top: 50px;
+	border-right: 2px solid black;
+	border-right: 2px solid black;
+}
+
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+
+#navbar-header {
+	top: 0px;
+	width: 301px;
+	position: fixed;
+	font-family: sans-serif;
+	border-bottom: 1px solid black;
+	border-right: 2px solid black;
+	font-size: 1.8rem;
+	line-height: 2;
+	text-align: center;
+/*	width: 20%;*/
+	margin-left: -10px;
+	padding-bottom: 6px;
+	padding-top: 3px;
+	padding-left: 1px;
+}
+
+.main-menu {
+	left: 0;
+	width: 260px;
+	height: 90%;
+	position: fixed;
+	overflow-y: scroll;
+}
+
+.menu {
+	position: relative;
+	left: 0;
+	font-size: 0.9rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	border-bottom: 1px solid black;
+	list-style: none;
+	text-align: justify;
+	padding: 15px 0;
+	margin-top: 4px;
+	padding-left: 30px;
+	margin-left: -50px;
+}
+
+.menu:last-of-type {
+	border: none;
+}
+
+.sec-header:first-of-type {
+	padding-top: 0;
+}
+
+.sec-header {
+	font-family: sans-serif;
+	position: relative;
+	font-weight: 500;
+	font-size: 1.8rem;
+	margin: 5px 5px 10px 5px;
+	left: -20px;
+	padding-top: 10px;
+}
+
+.main-section {
+	position: relative;
+	top: 20px;
+	left: 345px;
+	width: 70%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+p {
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.5;
+	font-size: 0.86rem;
+	text-align: left;
+}
+
+.doc-li {
+	position: relative;
+	top: -10px;
+	left: 20px;
+	padding: 10px;
+}
+
+.zero-m {
+	margin: 0;
+	margin-bottom: -15px;
+}
+
+code {
+	position: relative;
+	padding: 15px  0 10px 10px;
+	left: 20px;
+	width: 90%;
+	background-color: ghostwhite;
+	border-radius: 5px;
+	margin: 5px;
+	line-height: 1.5;
+}

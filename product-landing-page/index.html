@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main> <!-- UTILIZAR FLEXBOX E MEDIA QUERY -->
+            <header id="header">
+                <!-- COLOCAR IMG LOGO -->
+                <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" />
+                <!-- MENU SEMPRE VISIVEL (FIXED) -->
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a class="nav-link" href="#features">Features</a></li>
+                        <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- FORMULARIO -->
+            <div class="container main">
+                <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+                    <label>
+                        <h3>Handcrafted, home-made masterpieces</h3>
+                    </label>
+                    <input name="email" type="email" id="email" placeholder="Enter your email address" required />
+                    <input type="submit" id="submit" value="GET STARTED" />
+                </form>
+            </div>
+            <div id="features" class="container menu">
+                <div class="icon">
+                    <i class="fa fa-3x fa-fire"></i>
+                </div>
+                <div class="contents">
+                    <h2 class="features-t">Premium Materials</h2>
+                    <p class="features-p">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+            </div>
+            <div class="container menu">
+                <div class="icons">
+                    <i class="fa fa-3x fa-truck"></i>
+                </div>
+                <div class="contents">
+                    <h2 class="features-t">Fast Shipping</h2>
+                    <p class="features-p">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                </div>
+            </div>
+            <div class="container menu">
+                <div class="icons">
+                    <i class="fa fa-3x fa-battery-full"></i>
+                </div>
+                <div class="contents">
+                    <h2 class="features-t">Quality Assurance</h2>
+                    <p class="features-p">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument..</p>
+                </div>
+            </div>
+            <!-- VIDEO -->
+            <div id="how-it-works" class="container video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hz0PaWK9tI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video"></iframe>
+            </div>
+            <div id="pricing" class="prices">
+                <div class="p1">
+                    <div class="p1-h">
+                        <h2 class="h2">TENOR TROMBONE</h2>
+                    </div>
+                    <div class="desc">
+                        <h3>$600</h3>
+                        <p class="p1-p">Lorem ipsum.</p>
+                        <p class="p1-p">Lorem ipsum.</p>
+                        <p class="p1-p">Lorem ipsum dolor.</p>
+                        <p class="p1-p">Lorem ipsum.</p>
+                        <input class="p-btn" type="submit" value="SELECT" />
+                    </div>
+                </div>
+                <div class="p1">
+                    <div class="p1-h">
+                        <h2 class="h2">BASS TROMBONE</h2>
+                    </div>
+                    <div class="desc">
+                        <h3>$900</h3>
+                        <p class="p1-p">Lorem ipsum.</p>
+                        <p class="p1-p">Lorem ipsum.</p>
+                        <p class="p1-p">Lorem ipsum dolor.</p>
+                        <p class="p1-p">Lorem ipsum.</p>
+                        <input class="p-btn" type="submit" value="SELECT" />
+                    </div>
+                </div>
+                <div class="p1">
+                    <div class="p1-h">
+                        <h2 class="h2">VALVE TROMBONE</h2>
+                    </div>
+                    <div class="desc">
+                        <h3>$1200</h3>
+                        <p class="p1-p">Lorem ipsum.</p>
+                        <p class="p1-p">Lorem ipsum.</p>
+                        <p class="p1-p">Lorem ipsum dolor.</p>
+                        <p class="p1-p">Lorem ipsum.</p>
+                        <input class="p-btn" type="submit" value="SELECT" />
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer id="footer">
+            <div class="f-links">
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a</li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <p>Copyright 2016, Original Trombones</p>
+        </footer>
+    </body>
+</html>
